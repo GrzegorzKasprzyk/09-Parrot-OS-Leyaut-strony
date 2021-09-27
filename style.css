@@ -1,0 +1,155 @@
+body
+{
+	background-color: #000000;
+	font-family: 'Lato', sans-serif;
+}
+
+#container
+{
+	background-color: #000000;
+	width: 1000px;
+    margin-left: auto;
+    margin-right: auto;	
+}
+
+#logo
+{
+	 color: #ecee1f;
+	 text-align: center;
+	 font-size: 44px;
+	 letter-spacing: 3px;
+	 font-weight: 900;
+	 margin-bottom: 20px;
+	 
+	 
+}
+
+#menu
+{
+	 text-align: center;
+	 background-color: #140b87;
+	 margin-top: 20px;
+	 color: #ffffff;
+	 font-weight: weight;
+	 padding: 10px;
+}
+
+#topbar
+{
+	 background-color: #6a98e7;
+	 color: ecee1f;
+	 padding: 10px;
+	 margin-top: 10px;
+	 padding: 10px;
+	 height: 170px;
+}
+
+#topbarL
+{
+	float: left;
+	padding: 20px;
+	width: 138px;
+	text-align: center;
+	border-right: 2px dotted #cccccc
+	margin-left:10px;
+	
+	
+}
+
+#topbarR
+{
+	float: left;
+	padding: 20px;
+	width: 760px;
+	font-size: 16px;
+	text-align: justify;
+	margin-top: 20px;
+	border-left: 2px dotted #ffffff;
+}
+#sidebar
+{
+	float: left; 
+	width: 148px;
+	min-height: 620px;
+	padding: 20px;
+	background-color: #6a98e7;
+	text-align: center;
+	font-size: 18px;
+	border-right: 2px dotted #ffffff;
+	
+}
+
+#content
+{
+	 float: left;
+	 padding: 40px;
+	 width: 730px;
+	 background-color: #ffffff;
+	 min-height: 580px;
+	 text-align: justify;
+	 
+}
+
+#footer
+{
+	 clear: both;
+	 color: white;
+	 text-align: center;
+	 padding: 20px;
+	 font-size: 18px;
+}
+
+.option
+{
+	float: left;
+	min-width: 50px;
+	height: 25px;
+	font-size: 18px;
+	padding: 10px;
+	border-right: 2px dotted #ffffff;
+	font-weight: bold;
+	
+}
+
+.option:hover
+{
+	background-color: #ecee1f;
+	cursor: pointer;
+	font-weight: bold;
+	color: #000000;
+}
+
+.optionL
+{
+	font-size:18px;
+	height:25px;
+	padding:10px;
+	font-weight: bold;
+	border-bottom: 2px dotted #ffffff;
+}
+
+.optionL:hover
+{
+	background-color: #140b87;
+	color: #ecee1f;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.bigtitle
+{
+	margin-top: 20px;
+	font-size: 40px;
+	font-weight: 900px;
+	letter-spacing: 2px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.dottedline
+{
+	height: 5px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	border-bottom: 2px dotted #ffffff;
+}
